@@ -125,6 +125,7 @@ Titanic_EDA_Project/
 │
 ├── titanic.ipynb
 ├── titanic.csv
+├──DataVisualization.pptx
 ├── README.md
 ```
 
