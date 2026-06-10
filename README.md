@@ -1,20 +1,79 @@
-# Titanic Dataset Exploratory Data Analysis (EDA)
+# 📊 Data Analytics Projects Portfolio
 
 ## Project Overview
 
-This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to identify patterns, trends, and factors that influenced passenger survival. Various statistical techniques and visualizations are used to understand the dataset and derive meaningful insights.
+This repository contains multiple Data Analytics projects developed using Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn. The projects demonstrate skills in data cleaning, exploratory data analysis (EDA), statistical analysis, data visualization, feature engineering, and machine learning.
 
 ---
 
-## Dataset
+# Project 1: Smartphone Usage and Addiction Analysis
 
-The Titanic dataset contains information about passengers aboard the RMS Titanic, including:
+## Objective
 
-* Passenger Class (Pclass)
-* Gender (Sex)
-* Age
-* Survival Status (Survived)
-* Other demographic information
+Analyze smartphone usage patterns and identify factors contributing to smartphone addiction through data analytics and machine learning techniques.
+
+## Tasks Performed
+
+* Exploratory Data Analysis (EDA)
+* Descriptive Statistics
+* Data Cleaning and Transformation
+* Missing Value Handling
+* Encoding Categorical Variables
+* Feature Engineering
+* Correlation Analysis
+* Data Visualization
+* Logistic Regression
+* Support Vector Machine (SVM)
+
+## Visualizations
+
+* Histograms
+* Boxplots
+* Scatter Plots
+* Pie Charts
+* Count Plots
+* Correlation Heatmaps
+
+## Key Insights
+
+* Smartphone usage is strongly related to addiction levels.
+* Social media and gaming contribute significantly to screen time.
+* Sleep duration and stress levels influence addiction behavior.
+
+---
+
+# Project 2: Titanic Survival Analysis
+
+## Objective
+
+Perform exploratory data analysis on the Titanic dataset to identify factors affecting passenger survival.
+
+## Tasks Performed
+
+* Data Exploration
+* Statistical Analysis
+* Missing Value Analysis
+* Survival Analysis
+* Gender Analysis
+* Age Distribution Analysis
+* Outlier Detection
+* Correlation Analysis
+* Data Visualization
+
+## Visualizations
+
+* Bar Charts
+* Pie Charts
+* Histograms
+* Density Plots
+* Boxplots
+* Heatmaps
+
+## Key Insights
+
+* Female passengers had higher survival rates.
+* First-class passengers were more likely to survive.
+* Age and passenger class influenced survival probability.
 
 ---
 
@@ -25,114 +84,53 @@ The Titanic dataset contains information about passengers aboard the RMS Titanic
 * NumPy
 * Matplotlib
 * Seaborn
+* Scikit-learn
 * Jupyter Notebook
 
 ---
 
-## Analysis Performed
+## Skills Demonstrated
 
-### 1. Data Loading
-
-* Imported dataset using Pandas.
-* Inspected dataset structure and dimensions.
-
-### 2. Data Exploration
-
-* Viewed first few records using `head()`.
-* Checked data types and missing values using `info()`.
-* Generated descriptive statistics using `describe()`.
-
-### 3. Survival Analysis
-
-* Analyzed survival distribution.
-* Visualized survived vs non-survived passengers using bar charts.
-
-### 4. Gender Analysis
-
-* Examined gender distribution.
-* Created pie charts to visualize male and female passenger proportions.
-
-### 5. Age Analysis
-
-* Generated histograms for age distribution.
-* Created density plots to understand age patterns.
-* Calculated:
-
-  * Minimum Age
-  * Maximum Age
-  * Mean Age
-  * Age Skewness
-
-### 6. Outlier Detection
-
-* Used boxplots to identify age outliers.
-
-### 7. Comparative Analysis
-
-* Age vs Passenger Class
-* Age vs Gender
-* Age vs Survival Status
-
-### 8. Distribution Analysis
-
-* Compared age distributions of survivors and non-survivors using density plots.
-
-### 9. Correlation & Relationship Analysis
-
-* Generated heatmaps and cross-tabulations to identify relationships between variables.
-
----
-
-## Visualizations Used
-
-* Bar Charts
-* Pie Charts
-* Histograms
-* Distribution Plots
-* Boxplots
-* Heatmaps
-
----
-
-## Key Insights
-
-* Survival rates differed significantly across passenger classes.
-* Female passengers had a higher survival rate compared to males.
-* Passenger age influenced survival probability.
-* First-class passengers had a greater chance of survival.
-* Age distribution showed variations between survivors and non-survivors.
+* Data Cleaning
+* Data Transformation
+* Exploratory Data Analysis (EDA)
+* Statistical Analysis
+* Data Visualization
+* Correlation Analysis
+* Feature Engineering
+* Machine Learning
+* Model Evaluation
 
 ---
 
 ## Learning Outcomes
 
-Through this project, I learned:
+Through these projects, I gained practical experience in:
 
-* Data Cleaning and Exploration
-* Exploratory Data Analysis (EDA)
+* End-to-End Data Analytics Workflow
+* Data Preprocessing
+* Feature Engineering
 * Statistical Analysis
-* Data Visualization Techniques
-* Distribution and Outlier Analysis
+* Machine Learning Algorithms
 * Business Insight Generation
-* Python Data Analysis Libraries
+* Data Storytelling through Visualizations
 
 ---
 
-## Project Structure
+## Repository Structure
 
-```text
-Titanic_EDA_Project/
+DataVisualization-Python
 │
+├── Smartphone.ipynb
+├── Smartphone usage.csv
 ├── titanic.ipynb
 ├── titanic.csv
-├──DataVisualization.pptx
 ├── README.md
-```
 
 ---
 
 ## Author
 
-Hridaya Adep
+**Hridaya Adep**
 
-Aspiring Data Analyst | Python | SQL | Power BI | Data Visualization
+Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning | Data Visualization
